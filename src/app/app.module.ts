@@ -7,6 +7,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
 import { IfComponentComponent } from './components/if-component/if-component.component';
 import { EventsComponent } from './components/events/events.component';
+import { EmmitterComponent } from './components/emmitter/emmitter.component';
+import { ChangeNumberComponent } from './components/change-number/change-number.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { EventsComponent } from './components/events/events.component';
     ParentDataComponent,
     IfComponentComponent,
     EventsComponent,
+    EmmitterComponent,
+    ChangeNumberComponent,
   ],
   imports: [BrowserModule],
   providers: [],
