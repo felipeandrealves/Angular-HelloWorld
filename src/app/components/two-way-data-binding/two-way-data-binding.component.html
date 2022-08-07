@@ -1,13 +1,15 @@
-<p>two-way-data-binding</p>
+<div class="container-class">
+  <p>two-way-data-binding</p>
 
-<form>
-  <input
-    type="text"
-    name="name"
-    [(ngModel)]="name"
-    placeholder="Digite seu nome"
-  />
-  <input type="text" value="Enviar" />
+  <form>
+    <input
+      type="text"
+      name="name"
+      [(ngModel)]="name"
+      placeholder="Digite seu nome"
+    />
+    <input type="button" value="Enviar" />
 
-  <p *ngIf="name !== ''">O nome é: {{ name }}</p>
-</form>
+    <p *ngIf="name !== ''">O nome é: {{ name }}</p>
+  </form>
+</div>

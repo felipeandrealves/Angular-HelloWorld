@@ -1,5 +1,5 @@
 footer {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   right: 0;
   width: 100vw;
@@ -8,4 +8,5 @@ footer {
   justify-content: center;
   flex-direction: column;
   padding: 1rem 0;
+  height: 3rem;
 }
