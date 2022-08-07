@@ -1,6 +1,8 @@
-<h2>Endereco</h2>
+<div class="container-class">
+  <h2>Endereco</h2>
 
-<p *ngIf="cep !== ''; else cepNotFound">{{ cep }}</p>
-<ng-template #cepNotFound>
-  <p>Endereco nao encontrado</p>
-</ng-template>
+  <p *ngIf="cep !== ''; else cepNotFound">{{ cep }}</p>
+  <ng-template #cepNotFound>
+    <p>Endereco nao encontrado</p>
+  </ng-template>
+</div>
