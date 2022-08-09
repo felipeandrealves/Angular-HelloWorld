@@ -1,9 +1,13 @@
 import { Injectable } from '@angular/core';
+import { Animal } from 'src/interfaces/Animal';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ListService {
+  constructor() {}
 
-  constructor() { }
+  remove(animals: Animal[], animal: Animal) {
+    return animals.filter((a) => a.id !== animal.id);
+  }
 }
