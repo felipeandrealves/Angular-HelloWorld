@@ -1,4 +1,8 @@
 <div class="container-class">
-  <button (click)="showMessage()">Exibir mensagem!</button>
+  <h2>Click event</h2>
+
+  <button (click)="showMessage()">
+    {{ show ? "Ocultar" : "Exibir" }} mensagem!
+  </button>
   <p *ngIf="show">Show message</p>
 </div>

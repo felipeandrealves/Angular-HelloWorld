@@ -11,4 +11,8 @@ export class TwoWayDataBindingComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  handleSubmit(): void {
+    console.log({ name: this.name });
+  }
 }
